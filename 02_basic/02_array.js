@@ -7,7 +7,7 @@ const dc_heroes=["superman","flash","batman"]
 //console.log(marvel_heroes[3][1])//flash
 //const myheroes=marvel_heroes.concat(dc_heroes);
 //console.log(myheroes); //[ 'thor', 'ironman', 'spiderman', 'superman', 'flash', 'batman' ]
-//concat do array ko leke new array return kr deta h but push  existing array me push kr deta h
+//concat do array ko leke new array return kr deta h but 'push'  existing array me push kr deta h
 
 
 //concat ke place pe spread use krna zyada achaa rhta h jaise kaanch ka glass spread ho jata h
