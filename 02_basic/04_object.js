@@ -3,7 +3,7 @@
 //console.log(tinderUser);//{}(empty object print hua h)
 
 //agr isko pichle object literal ke jaise declarer krte Toh
-const tinderUser={}
+/*const tinderUser={}
 //console.log(tinderUser)//{} same hi outpt ata
 //the only difference is ki constructor wala singleton h aur yeh wala non singleton 
 
@@ -69,7 +69,39 @@ console.log(Object.values(tinderUser));//[ '123abc', 'Sammy', false ]
 
 console.log(Object.entries(tinderUser));//[ [ 'id', '123abc' ], [ 'name', 'Sammy' ], [ 'isLoggedIn', false ] ]//har key value ko array me bna diya jata h
 
-//agr value exist hi nhi krti toh pucho ki value hai?
+//agr value exist hi nhi krti toh?? pucho ki value hai?
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));//true
 console.log(tinderUser.hasOwnProperty('LoggedIn'));//false
 
+//DESTRUCTURING OF OBJECT (IMPORTANT TOPIC)
+*/
+const course={
+    coursename:"js in hindi",
+    price:999,
+    courseInstructor:"hitesh"
+}
+
+console.log(course.courseInstructor)//hitesh(for more clean code follow the below one)
+//const {courseInstructor}=course
+const {courseInstructor: Instructor}=course//ab courseInstructor nhi likhna hoga bss instructor likh skte hai 
+//console.log(courseInstructor);//hitesh
+console.log(Instructor);//hitesh
+
+
+
+//API:APNA KAAM KISI AUR KE SARR PE DALNA
+//Backend se values aati h in the form of JSON 
+/*{
+"name":"hitesh",
+"coursename":"js in hindi",
+"price" :"free"
+}//yhi JSON hai like an object without name
+ */
+
+//API  array format me bhi hoti hai 
+[
+    {},
+    {},
+    {}
+]
+  
