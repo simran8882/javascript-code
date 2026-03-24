@@ -14,7 +14,7 @@ console.log(tinderUser);//{ id: '123abc', name: 'Sammy', isLoggedIn: false }
 
 const regularUser={
     email:"some@gmail.com",
-    fullname:{//object me object create ke skte h jitni nesting kr skte h
+    fullname:{//object me object create kr skte h jitni nesting kr skte h
        userfullname:{
             firstname:"simran",
             lastname:"rawat"
@@ -104,4 +104,4 @@ console.log(Instructor);//hitesh
     {},
     {}
 ]
-  
+
